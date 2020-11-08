@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Izin">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/con"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:layout_toLeftOf="@id/txt1"
+            android:src="@drawable/ic_wiget"
+            app:layout_constraintEnd_toStartOf="@+id/txt1"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84dp"
+            android:text="Statistik Absensi"
+            android:textColor="#264675"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/poppins_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/kotak2"
+            android:layout_width="71dp"
+            android:layout_height="66dp"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circlee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+        <ImageView
+            android:id="@+id/kotak1"
+            android:layout_width="71dp"
+            android:layout_height="66dp"
+            android:layout_below="@id/txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circlee"
+            app:layout_constraintEnd_toStartOf="@+id/kotak2"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+        <ImageView
+            android:id="@+id/kotak3"
+            android:layout_width="71dp"
+            android:layout_height="66dp"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circlee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/kotak2"
+            app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle2"
+            app:layout_constraintEnd_toEndOf="@+id/kotak1"
+            app:layout_constraintHorizontal_bias="0.688"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/kotak1" />
+
+        <TextView
+            android:id="@+id/alpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textStyle="bold"
+            android:textColor="#FF6B67"
+            android:textSize="23sp"
+            android:fontFamily="@font/poppins_bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle2"
+            app:layout_constraintEnd_toEndOf="@+id/kotak2"
+            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/kotak2" />
+
+        <TextView
+            android:id="@+id/sakit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="2"
+            android:textColor="#0F8D2B"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView1"
+            app:layout_constraintEnd_toEndOf="@+id/imageView1"
+            app:layout_constraintStart_toStartOf="@+id/imageView1"
+            app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toEndOf="@+id/imageView1"
+            app:layout_constraintTop_toTopOf="@+id/kotak3" />
+
+        <TextView
+            android:id="@+id/izin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="2"
+            android:textColor="#FFD45E"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.531"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle3"
+            app:layout_constraintEnd_toEndOf="@+id/kotak1"
+            app:layout_constraintHorizontal_bias="0.847"
+            app:layout_constraintStart_toStartOf="@+id/kotak1"
+            app:layout_constraintTop_toTopOf="@+id/kotak1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="S"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/lingkaranIjo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle4"
+            app:layout_constraintEnd_toEndOf="@+id/kotak2"
+            app:layout_constraintHorizontal_bias="0.847"
+            app:layout_constraintStart_toStartOf="@+id/kotak2"
+            app:layout_constraintTop_toTopOf="@+id/kotak2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="I"
+            app:layout_constraintEnd_toEndOf="@+id/lingkaranIjo"
+            app:layout_constraintStart_toStartOf="@+id/lingkaranIjo"
+            app:layout_constraintTop_toTopOf="@+id/lingkaranIjo" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle5"
+            app:layout_constraintEnd_toEndOf="@+id/kotak3"
+            app:layout_constraintHorizontal_bias="0.847"
+            app:layout_constraintStart_toStartOf="@+id/kotak3"
+            app:layout_constraintTop_toTopOf="@+id/kotak3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="A"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/recycler">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inginIzin"
+        android:layout_above="@+id/bottom"
+        android:backgroundTint="#FFFFFF"
+        android:src="@drawable/ic_add_24"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#264675"
+        android:id="@+id/bottom"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
+
